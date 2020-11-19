@@ -1,0 +1,42 @@
+.menu-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Mono for Powerline;
+
+    @include tab {
+        flex-direction: column;
+    }
+}
+
+.menu-item {
+    width: 25%;
+
+    @include tab {
+        width: 40%;
+    }
+}
+
+.service {
+    margin: 37px 4% 0 4%;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.service-text {
+    font-size: 1.6rem;
+    letter-spacing: 0.1em;
+    margin-top: 34px;
+    padding: 0 10px;
+}
+
+.service-price {
+    font-size: 1.6rem;
+    letter-spacing: 0.1em;
+    padding: 0 10px;
+    text-align: right;
+    margin-top: 34px;
+    margin-left: 270px;
+}

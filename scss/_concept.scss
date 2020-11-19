@@ -1,0 +1,43 @@
+.concept {
+    height: 1360px;
+    padding-top: 407px;
+    background: linear-gradient(#A193861F 0 60%, #A1938689 60% 100%);
+}
+
+.concept-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+
+    :first-child {
+        margin-left: 101px;
+    }
+
+    @include sp {
+        width: 15%;
+    }
+}
+
+.concept-wrap {
+    // background-color: #A1938689;    width: auto;
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.concept-catch {
+    font-size: 4rem;
+    margin: 92px 0, 0, 174px;
+    font-family: "游明朝";
+}
+
+.concept-text {
+    font-size: 1.6rem;
+    width: 40%;
+    overflow: hidden;
+    letter-spacing: 0.1em;
+    margin-bottom: 64px;
+}
